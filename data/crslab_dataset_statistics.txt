@@ -1,0 +1,26 @@
+============================================================
+CRSLab ReDial BERT Dataset Statistics
+============================================================
+
+Train (includes original train + valid):
+  Conversations: 9005
+  Instances (recommender utterances with movies): 26487
+  Total recommendations: 29851
+  Unique movies: 4679
+  Avg recommendations per instance: 1.13
+
+Test:
+  Conversations: 1342
+  Instances (recommender utterances with movies): 3477
+  Total recommendations: 4048
+  Unique movies: 1453
+  Avg recommendations per instance: 1.16
+
+============================================================
+SUMMARY
+============================================================
+Train: 26487 instances
+Test: 3477 instances
+  Train: 29851 recommendations (4679 unique)
+  Test: 4048 recommendations (1453 unique)
+============================================================

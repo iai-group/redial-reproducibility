@@ -1,0 +1,33 @@
+Total
+
+============================================================
+SUMMARY
+============================================================
+Train: 34591 instances
+Test: 4198 instances
+  Train: 39463 recommendations (5511 unique), 50597 movie mentions (6084 unique movies)
+  Test: 4975 recommendations (1631 unique), 6736 movie mentions (1936 unique movies)
+
+  Combined (train+test):
+    Conversations: 11274
+    Instances: 38789
+    Recommendations: 44438 total, 5855 unique
+    Movie mentions: 57333 total, 6486 unique movies
+============================================================
+
+Deduplicated
+
+============================================================
+SUMMARY
+============================================================
+Train: 31875 instances
+Test: 3838 instances
+  Train: 35890 recommendations (5445 unique), 50068 movie mentions (6056 unique movies)
+  Test: 4472 recommendations (1583 unique), 6635 movie mentions (1922 unique movies)
+
+  Combined (train+test):
+    Conversations: 11262
+    Instances: 35713
+    Recommendations: 40362 total, 5777 unique
+    Movie mentions: 56703 total, 6455 unique movies
+============================================================

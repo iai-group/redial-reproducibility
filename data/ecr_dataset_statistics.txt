@@ -1,0 +1,26 @@
+============================================================
+ECR Dataset Statistics (Processed Data)
+============================================================
+
+Train (includes original train + valid):
+  Conversations: 10006
+  Recommender utterances with entities/movies: 34148
+  Total entity/movie IDs in recommender utterances: ~55k (estimated)
+
+Test:
+  Conversations: 1342
+  Recommender utterances with entities/movies: 4200
+  Total entity/movie IDs in recommender utterances: ~6.5k (estimated)
+
+Note: ECR paper reports evaluation on recommender utterances only.
+      The 'rec' field contains both movie IDs and entity IDs (merged).
+      Code processes both roles but paper evaluates on recommender only.
+
+============================================================
+SUMMARY
+============================================================
+Train: 34148 instances (recommender only)
+Test: 4200 instances (recommender only)
+
+Unique items (movies + entities): 6281
+============================================================

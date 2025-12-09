@@ -1,0 +1,35 @@
+============================================================
+PECRS Dataset Statistics
+============================================================
+
+Train:
+  Conversations: 10006
+  Recommender instances (total): 71961
+  Instances with recommendations: 38391
+  Instances without recommendations: 33570
+  Total recommendations: 38391
+  Unique movies: 5758
+  Avg recommendations per instance with rec: 1.00
+
+Test:
+  Conversations: 1342
+  Recommender instances (total): 9237
+  Instances with recommendations: 4819
+  Instances without recommendations: 4418
+  Total recommendations: 4819
+  Unique movies: 1872
+  Avg recommendations per instance with rec: 1.00
+
+Note: PECRS splits each recommender utterance with multiple movie
+      recommendations into separate instances (one instance per movie).
+      Only recommender utterances included.
+      Includes instances without recommendations (target = -1).
+
+============================================================
+SUMMARY
+============================================================
+Train: 71961 instances (38391 with recommendations)
+Test: 9237 instances (4819 with recommendations)
+
+Unique movies: 6129
+============================================================
